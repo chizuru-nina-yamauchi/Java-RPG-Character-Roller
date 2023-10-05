@@ -26,12 +26,13 @@ int n = rng.nextInt(13);
             System.out.println("Strength: " + n);
             System.out.println("Magic: " + n);
             System.out.println("Health: " + n);
-        } else System.out.println(characterName + " is .... a Potato");
-        System.out.println();
-        System.out.println("Strength: " + n);
-        System.out.println("Magic: " + n);
-        System.out.println("Health: " + n);
-
+        } else {
+            System.out.println(characterName + " is .... a Potato");
+            System.out.println();
+            System.out.println("Strength: " + n);
+            System.out.println("Magic: " + n);
+            System.out.println("Health: " + n);
+        }
         System.out.println();
         System.out.println("Happy adventuring!");
 
