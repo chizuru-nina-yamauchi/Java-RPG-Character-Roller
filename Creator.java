@@ -47,6 +47,8 @@ public class Creator {
         System.out.println();
         System.out.println("Happy adventuring!");
 
+        scanner.close();
+
 
     }
 
